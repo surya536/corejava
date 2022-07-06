@@ -1,5 +1,7 @@
 package com.svkp.demo;
 
+import java.rmi.server.ObjID;
+
 public class Demothrow{
 	{
 		int age = 0;
@@ -13,7 +15,7 @@ public class Demothrow{
    
 	public static void main(String[] args) {
 		Demothrow obj = new Demothrow();
-		obj. check age(18);
+		int age=(18);
 	}
 
 }
