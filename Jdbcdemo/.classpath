@@ -5,6 +5,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="cm/svkp/daolbdcdemo/coneection/" kind="src" path="src"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry excluding="com/svkp/Jdbcdemo/|com/svkp/" kind="src" path="src"/>
+	<classpathentry kind="output" path="mysqlworkbench"/>
 </classpath>

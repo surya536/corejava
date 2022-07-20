@@ -6,7 +6,7 @@ public class SmallestNubers {
 		Scanner in = new Scanner(System.in);
 		System.out.print("A:-");
 		Double x = in.nextDouble();
-		System.out.print("B:-");34
+		System.out.print("B:-");
 		Double y = in.nextDouble();
 		System.out.print("c:-");
 		Double z = in.nextDouble();

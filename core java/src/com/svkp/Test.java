@@ -1,11 +1,10 @@
 package com.svkp;
 
-public class Scaneer {
-	
+public class Test {
+	int i;
 	public static void main(String[] args) {
-	Scaneer t;
-	
+	Test t;
+	System.out.println(t.i);
 	}
-	
 
 }
