@@ -5,6 +5,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="cm/svkp/daolbdcdemo/coneection/" kind="src" path="src"/>
+	<classpathentry excluding="cm/svkp/daolbdcdemo/coneection/|com/svkp/thread/|com/svkp/exceptions/" kind="src" path="src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
