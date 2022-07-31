@@ -8,7 +8,7 @@ public class GsShopFactor implements ShopFactor{
 
 	@Override
 	public PrimeAcc getNewPrimeAcc(int accno, String accname, float charges, boolean isPrime) {
-		GsPrimeAcc gsprime = new GsPrimeAcc(accno, accname, charges);
+		GsPrimeAcc gsprime = new GsPrimeAcc(accno, accname, charges, isPrime);
 		
 		return null;
 	}

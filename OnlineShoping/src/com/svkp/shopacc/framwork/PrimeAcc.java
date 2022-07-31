@@ -8,9 +8,7 @@ public class PrimeAcc extends ShopAcc {
 
 	}
 	public void product(float charges) {
-		
-	
-	
+
 	}
 	@Override
 	public String toString() {

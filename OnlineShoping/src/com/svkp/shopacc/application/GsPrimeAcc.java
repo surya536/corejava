@@ -7,7 +7,7 @@ public class GsPrimeAcc extends PrimeAcc {
 	private static final float charges=0;
 	
 	public GsPrimeAcc(int accno, String accname, float charges, boolean isPrime) {
-		super(accno, accname, charges);
+		super(accno, accname, charges, isPrime);
 		
 	}
 	

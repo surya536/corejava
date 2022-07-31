@@ -23,4 +23,5 @@ public class ShopAcc {
 		return "ShopAcc [accno=" + accno + ", accname=" + accname + ", charges=" + charges + "]";
 	}
 	
+	
 }
