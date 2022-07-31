@@ -3,6 +3,8 @@ package com.svkp.bankAcc.FramWork;
 public class SavingAcc extends BankAcc{
   
 	private static boolean balance;
+	private  boolean balance1;
+	
     public SavingAcc(int accno, String accname, float accBal,boolean withdraw) {
 		
 		super(accno, accname, accBal, balance);
@@ -14,7 +16,7 @@ public class SavingAcc extends BankAcc{
 	}
 	@Override
 	public String toString() {
-		return "SavingAcc [balance=" + balance + ", accno=" + accno + ", accname=" + accname + ", accBal=" + accBal
+		return "SavingAcc [balance1=" + balance1 + ", accno=" + accno + ", accname=" + accname + ", accBal=" + accBal
 				+ "]";
 	}
 
