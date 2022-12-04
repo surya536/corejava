@@ -6,6 +6,8 @@ import com.svkp.bankAcc.FramWork.SavingAcc;
 
 public class GsBankFactory implements BankFactory {
 
+	private boolean diposit;
+
 	@Override
 	public SavingAcc getNewSavingAccount(int accno, String accname, float accBal, boolean withdraw) {
 		GsSavingAcc gssaving = new GsSavingAcc(accno, accname, accBal, withdraw);
@@ -14,6 +16,7 @@ public class GsBankFactory implements BankFactory {
 
 	@Override
 	public CurrentAcc getNewCurrentAccount(int accno, String accname, float accBal, boolean deposit) {
+		GsCurrentAcc gscurr = new GsCurrentAcc(accno,accname,accBal,deposit);
 		return null;
 	}
 

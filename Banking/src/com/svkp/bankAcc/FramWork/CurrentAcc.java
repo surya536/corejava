@@ -1,19 +1,18 @@
 package com.svkp.bankAcc.FramWork;
 
 public class CurrentAcc extends BankAcc {
-	public boolean diposit;
+	public boolean withdrow;
 	
-    public final float accountbalance=0;
+    public final float accountbalance = 100;
     
 	public CurrentAcc(int accno, String accname, float accBal, boolean deposit) {
 		super(accno, accname, accBal, deposit);
-		// TODO Auto-generated constructor stub
+		System.out.println("dear user, your balance is suffinanct: " +deposit);
 	}
 
 	@Override
 	public String toString() {
-		return "CurrentAcc [accountbalance=" + accountbalance + ", accno=" + accno + ", accname=" + accname
-				+ ", accBal=" + accBal + "]";
+		return "CurrentAcc [withdrow=" + withdrow + ", accountbalance=" + accountbalance + "]";
 	}
 
 	

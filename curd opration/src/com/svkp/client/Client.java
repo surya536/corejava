@@ -13,8 +13,11 @@ public class Client {
 	   try {
 		   Scanner sc = new Scanner(System.in);
 		   System.out.println("Enter student data");
+		   System.out.print("enter sid:  ");
 		   student.setSid(sc.nextInt());
+		   System.out.print("enter Sname:  ");
 		   student.setSname(sc.next());
+		   System.out.print("enter Sbranch:  ");
 		   student.setSbranch(sc.next());
 		   service.addStudent(student);
 		   

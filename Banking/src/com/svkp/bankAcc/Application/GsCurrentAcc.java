@@ -9,7 +9,9 @@ public class GsCurrentAcc extends CurrentAcc {
 		// TODO Auto-generated constructor stub
 	}
 
-	
+	public void diposit (float charges) {
+		System.out.println("Dear custmer your balance:" + "+accountbalance" + "diposit:" + accname);
+	}
 
 	@Override
 	public String toString() {
