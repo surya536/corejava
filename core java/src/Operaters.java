@@ -20,13 +20,13 @@ public class Operaters {
 		x = (10==x)?1:0;
 		System.out.println(x);
 		System.out.println("******************//nested for loop//*****************");
-		for(int i=1; i<=10; i++)
+		for(int i=1; i<=5; i++)
 		{
-			for(int j=1; j<=10; j++)
+			for(int j=1; j<=i; j++)
 			{
-	System.out.println("Value of i:"+i+" and value of j:"+j);
+	System.out.print(" * ");
 			}
-			System.out.println("************************");
+			System.out.println(" ");
 		}
 
 	}

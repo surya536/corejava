@@ -20,7 +20,7 @@ public class Switching {
 			break;
 
 		}
-		//using string
+		/*using string
 		String name = "te";
 
 		switch (name.toLowerCase()) 
@@ -38,7 +38,7 @@ public class Switching {
 			System.out.println("Invalid entry");
 			break;
 	}
-    //
+    */
 
 	}
 

@@ -4,7 +4,7 @@ public class demopoly {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int x;
-        switch(x)
+        switch(1)
         {
         case 1:
         	System.out.println("The value of x is 1");
