@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Palindrame {
        
 	public static void main(String[] args) {
-		*/input values/*
+	
         String a,b;
         StringBuffer sb;
         Scanner sc = new Scanner(System.in);
